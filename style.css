@@ -186,6 +186,10 @@ h1{
 
 
 
+.projetos-interiorInfusedLink{
+    text-decoration: none;
+    color: var(--claro);
+}
 
 .projetos-titulo{
     font-size: 3rem;
