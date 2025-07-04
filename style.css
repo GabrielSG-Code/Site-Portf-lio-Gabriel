@@ -131,7 +131,21 @@ h1{
     color: var(--claro);
 }
 
-.sobre, .projetos{
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.sobre, .projetos, .Contato{
     padding: 6rem 2rem;
 
 }
@@ -160,9 +174,31 @@ h1{
     font-size: 1.1rem;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+.projetos-titulo{
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+
 .projetos-caixa{
 
 }
+
+
 
 .projetos-card{
 
