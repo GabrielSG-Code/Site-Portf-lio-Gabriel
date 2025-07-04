@@ -55,17 +55,21 @@
     </section>
 
     <section id="projetos" class="projetos">
-        <h2>Meus Projetos</h2>
+        <h2 class="projetos-titulo">Meus Projetos</h2>
 
         <div class="projetos-caixa">
             <div class="projetos-card">
                 <a>
-                    <img class="projetos-imagem" alt="Projeto 1" src="./img/Captura de tela 2025-06-30 131717.png">
-                    <h3 class="info-projeto">Interior Infused</h3>
-                    <p class="projetos-paragrafo">Site da empresa Interiors Infused, que tem o foco no desenvolvimento
+                    <img class="projetos-card-imagem" alt="Projeto 1" src="./img/Captura de tela 2025-06-30 131717.png">
+
+                    <div class=" projetos-card-informacoes">
+                        <h3 class="projetos-card-titulos">Interior Infused</h3>
+                        <p class="projetos-card-paragrafo">Site da empresa Interiors Infused, que tem o foco no
+                            desenvolvimento
                         de projetos de design de interiores
                         e soluções de ergonomia, iluminação, decoração, ambientação, renderização e demais serviços.
                     </p>
+                    </div>
                 </a>
             </div>
         </div>
@@ -73,12 +77,12 @@
 
     <section id="Contato" class="Contato">
         <h3 class="contato-titulo">Entre em Contato</h3>
-        <form class="contato-formulario" id="contato">
-            <div class="nome-form">
-                <input type="text" name="nome" placeholder="Seu Nome" class="campo-form">
+        <form class="contato-formulario" id="contato" onsubmit="enviarWhatsapp(event)">
+            <div class="grupo-form">
+                <input type="text" name="nome" placeholder="Seu Nome" class="campo-form" id="nome">
             </div>
             <div class="grupo-form">
-                <textarea class="text-form" name="mensagem" placeholder="Digite a Sua Mensagem"></textarea>
+                <textarea class="campo-form" name="mensagem" placeholder="Digite a Sua Mensagem" id="mensagem"></textarea>
             </div>
         </form>
     </section>
