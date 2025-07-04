@@ -89,6 +89,25 @@
         </form>
     </section>
 
+    <script>
+    
+        function enviarWhatsapp(event) {
+
+            event.preventDefault(); // Impede o envio do formulário padrão
+            // Obtém os valores dos campos do formulário
+
+            const nome = document.getElementById('nome').value;
+            const mensagem = document.getElementById('mensagem').value;
+            const telefone = `5571981364489`
+
+            const texto = `Olá, meu nome é ${nome}, e ${mensagem}`;
+            const mensagemFormatada = encodeURIComponent(texto);
+            const whatsappURL = `https://wa.me/${telefone}?text=${mensagemFormatada}`;
+
+            window.open(whatsappURL, '_blank');
+        }
+    </script>
+
 </body>
 
 </html>
