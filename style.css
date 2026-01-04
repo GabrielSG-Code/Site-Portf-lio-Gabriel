@@ -111,8 +111,8 @@ body{
 
 }
 .foto-perfil{
-    width: 350px;
-    height: 350px;
+    width: 280px;
+    height: 280px;
     border-radius: 50%;
     border: 100 solid var(--vidro);
     box-shadow: 0 0 20px rgba(79, 70, 229, 0.3);
